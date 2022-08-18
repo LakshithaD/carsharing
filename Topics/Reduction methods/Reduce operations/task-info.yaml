@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: The first argument (identity) is both the initial value of the reduction and
+    the default result if there are no elements in the stream.
+- text: The reduce operation combines elements of a stream into a single value.
+- text: The order of arguments of the accumulator function is not important.
+- text: 'The accumulator function takes three parameters: the accumulated value, the
+    next element and the previous element of a stream.'
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3356#comment
+status: Solved
+record: -1
